@@ -1,0 +1,64 @@
+#test 1 : neither stress nor iperf
+
+       cc  bitrate  n_core    power_W
+0  stress        0       0  42.888413
+
+#test 2 : only stressing # of cores
+
+       cc  bitrate  n_core    power_W
+0  stress        0       8  65.006033
+1  stress        0      16  83.080016
+2  stress        0      24  85.942659
+
+
+
+#test 3 : stressing while iperf
+
+       cc  bitrate  n_core    power_W
+0   cubic        1       8  65.555930
+1   cubic        1      16  83.520457
+2   cubic        1      24  86.295249
+3   cubic        2       8  65.580796
+4   cubic        2      16  83.577401
+5   cubic        2      24  86.223732
+6   cubic        3       8  65.526909
+7   cubic        3      16  83.639996
+8   cubic        3      24  86.214373
+9   cubic        4       8  65.525543
+10  cubic        4      16  83.801165
+11  cubic        4      24  86.179713
+12  cubic        5       8  65.489321
+13  cubic        5      16  83.567970
+14  cubic        5      24  86.151987
+15  cubic        6       8  65.533307
+16  cubic        6      16  83.522205
+17  cubic        6      24  86.250853
+18  cubic        7       8  65.521466
+19  cubic        7      16  83.634171
+20  cubic        7      24  86.349974
+21  cubic        8       8  65.517562
+22  cubic        8      16  83.627725
+23  cubic        8      24  86.311692
+24  cubic        9       8  65.518934
+25  cubic        9      16  83.624044
+26  cubic        9      24  86.207861
+27  cubic       10       8  65.513796
+28  cubic       10      16  83.590641
+29  cubic       10      24  86.153496
+
+
+
+#test 4 : only iperf with different bitrates
+
+      cc  bitrate  n_core    power_W
+0  cubic        1       0  43.103527
+1  cubic        2       0  43.111479
+2  cubic        3       0  43.099533
+3  cubic        4       0  43.093315
+4  cubic        5       0  43.095979
+5  cubic        6       0  43.105041
+6  cubic        7       0  43.105418
+7  cubic        8       0  43.100166
+8  cubic        9       0  43.112069
+9  cubic       10       0  43.106868
+
