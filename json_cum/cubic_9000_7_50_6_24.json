@@ -1,0 +1,119 @@
+{
+	"start":	{
+		"connected":	[{
+				"socket":	5,
+				"local_host":	"10.10.10.2",
+				"local_port":	57340,
+				"remote_host":	"10.10.10.4",
+				"remote_port":	5201
+			}],
+		"version":	"iperf 3.9",
+		"system_info":	"Linux zelda 5.10.0-18-amd64 #1 SMP Debian 5.10.140-1 (2022-09-02) x86_64",
+		"timestamp":	{
+			"time":	"Wed, 31 Jan 2024 09:25:51 GMT",
+			"timesecs":	1706693151
+		},
+		"connecting_to":	{
+			"host":	"10.10.10.4",
+			"port":	5201
+		},
+		"cookie":	"kqtnfp3wfjhentfuo3lbvneoau2v7jhu2miy",
+		"tcp_mss_default":	1448,
+		"target_bitrate":	7000000000,
+		"sock_bufsize":	0,
+		"sndbuf_actual":	1000000,
+		"rcvbuf_actual":	1000000,
+		"test_start":	{
+			"protocol":	"TCP",
+			"num_streams":	1,
+			"blksize":	131072,
+			"omit":	0,
+			"duration":	50,
+			"bytes":	0,
+			"blocks":	0,
+			"reverse":	0,
+			"tos":	0
+		}
+	},
+	"intervals":	[{
+			"streams":	[{
+					"socket":	5,
+					"start":	0,
+					"end":	50.000071,
+					"seconds":	50.000072479248047,
+					"bytes":	5886967808,
+					"bits_per_second":	941913483.89637923,
+					"retransmits":	0,
+					"snd_cwnd":	763096,
+					"rtt":	2726,
+					"rttvar":	99,
+					"pmtu":	9000,
+					"omitted":	false,
+					"sender":	true
+				}],
+			"sum":	{
+				"start":	0,
+				"end":	50.000071,
+				"seconds":	50.000072479248047,
+				"bytes":	5886967808,
+				"bits_per_second":	941913483.89637923,
+				"retransmits":	0,
+				"omitted":	false,
+				"sender":	true
+			}
+		}],
+	"end":	{
+		"streams":	[{
+				"sender":	{
+					"socket":	5,
+					"start":	0,
+					"end":	50.000071,
+					"seconds":	50.000071,
+					"bytes":	5886967808,
+					"bits_per_second":	941913511.76281333,
+					"retransmits":	0,
+					"max_snd_cwnd":	763096,
+					"max_rtt":	2726,
+					"min_rtt":	2726,
+					"mean_rtt":	2726,
+					"sender":	true
+				},
+				"receiver":	{
+					"socket":	5,
+					"start":	0,
+					"end":	50.044344902038574,
+					"seconds":	50.000071,
+					"bytes":	5884516368,
+					"bits_per_second":	940688324.24824762,
+					"sender":	true
+				}
+			}],
+		"sum_sent":	{
+			"start":	0,
+			"end":	50.000071,
+			"seconds":	50.000071,
+			"bytes":	5886967808,
+			"bits_per_second":	941913511.76281333,
+			"retransmits":	0,
+			"sender":	true
+		},
+		"sum_received":	{
+			"start":	0,
+			"end":	50.044344902038574,
+			"seconds":	50.044344902038574,
+			"bytes":	5884516368,
+			"bits_per_second":	940688324.24824762,
+			"sender":	true
+		},
+		"cpu_utilization_percent":	{
+			"host_total":	20.434958837649031,
+			"host_user":	0.93620420570162866,
+			"host_system":	19.498752635461379,
+			"remote_total":	23.6049214112505,
+			"remote_user":	2.5663104793884188,
+			"remote_system":	21.038612926966259
+		},
+		"sender_tcp_congestion":	"cubic",
+		"receiver_tcp_congestion":	"cubic"
+	}
+}

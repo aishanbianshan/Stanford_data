@@ -1,0 +1,119 @@
+{
+	"start":	{
+		"connected":	[{
+				"socket":	5,
+				"local_host":	"10.10.10.2",
+				"local_port":	53478,
+				"remote_host":	"10.10.10.4",
+				"remote_port":	5201
+			}],
+		"version":	"iperf 3.9",
+		"system_info":	"Linux zelda 5.10.0-18-amd64 #1 SMP Debian 5.10.140-1 (2022-09-02) x86_64",
+		"timestamp":	{
+			"time":	"Wed, 31 Jan 2024 14:08:05 GMT",
+			"timesecs":	1706710085
+		},
+		"connecting_to":	{
+			"host":	"10.10.10.4",
+			"port":	5201
+		},
+		"cookie":	"ssnhfm6oidhxc36kqw25ydz7bmhzzu5ysqp6",
+		"tcp_mss_default":	1448,
+		"target_bitrate":	10000000000,
+		"sock_bufsize":	0,
+		"sndbuf_actual":	1000000,
+		"rcvbuf_actual":	1000000,
+		"test_start":	{
+			"protocol":	"TCP",
+			"num_streams":	1,
+			"blksize":	131072,
+			"omit":	0,
+			"duration":	60,
+			"bytes":	0,
+			"blocks":	0,
+			"reverse":	0,
+			"tos":	0
+		}
+	},
+	"intervals":	[{
+			"streams":	[{
+					"socket":	5,
+					"start":	0,
+					"end":	60.000072,
+					"seconds":	60.000072479248047,
+					"bytes":	7062814720,
+					"bits_per_second":	941707491.76248527,
+					"retransmits":	0,
+					"snd_cwnd":	460464,
+					"rtt":	2182,
+					"rttvar":	145,
+					"pmtu":	9000,
+					"omitted":	false,
+					"sender":	true
+				}],
+			"sum":	{
+				"start":	0,
+				"end":	60.000072,
+				"seconds":	60.000072479248047,
+				"bytes":	7062814720,
+				"bits_per_second":	941707491.76248527,
+				"retransmits":	0,
+				"omitted":	false,
+				"sender":	true
+			}
+		}],
+	"end":	{
+		"streams":	[{
+				"sender":	{
+					"socket":	5,
+					"start":	0,
+					"end":	60.000072,
+					"seconds":	60.000072,
+					"bytes":	7062814720,
+					"bits_per_second":	941707499.28433418,
+					"retransmits":	0,
+					"max_snd_cwnd":	460464,
+					"max_rtt":	2182,
+					"min_rtt":	2182,
+					"mean_rtt":	2182,
+					"sender":	true
+				},
+				"receiver":	{
+					"socket":	5,
+					"start":	0,
+					"end":	60.044098854064941,
+					"seconds":	60.000072,
+					"bytes":	7061240808,
+					"bits_per_second":	940807299.0036335,
+					"sender":	true
+				}
+			}],
+		"sum_sent":	{
+			"start":	0,
+			"end":	60.000072,
+			"seconds":	60.000072,
+			"bytes":	7062814720,
+			"bits_per_second":	941707499.28433418,
+			"retransmits":	0,
+			"sender":	true
+		},
+		"sum_received":	{
+			"start":	0,
+			"end":	60.044098854064941,
+			"seconds":	60.044098854064941,
+			"bytes":	7061240808,
+			"bits_per_second":	940807299.0036335,
+			"sender":	true
+		},
+		"cpu_utilization_percent":	{
+			"host_total":	20.037095620820171,
+			"host_user":	0.864114376294697,
+			"host_system":	19.1729795802835,
+			"remote_total":	26.134000685641855,
+			"remote_user":	1.9806886248037254,
+			"remote_system":	24.153310397547031
+		},
+		"sender_tcp_congestion":	"cubic",
+		"receiver_tcp_congestion":	"cubic"
+	}
+}
